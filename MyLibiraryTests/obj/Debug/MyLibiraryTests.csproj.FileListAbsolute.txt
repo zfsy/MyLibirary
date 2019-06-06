@@ -1,0 +1,8 @@
+F:\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibiraryTests.dll
+F:\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibiraryTests.pdb
+F:\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibirary.dll
+F:\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibirary.pdb
+F:\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.csprojResolveAssemblyReference.cache
+F:\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.dll
+F:\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.pdb

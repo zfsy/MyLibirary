@@ -1,0 +1,5 @@
+F:\GitHub\MyLibirary\MyLibirary\bin\Debug\MyLibirary.dll
+F:\GitHub\MyLibirary\MyLibirary\bin\Debug\MyLibirary.pdb
+F:\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.csprojResolveAssemblyReference.cache
+F:\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.dll
+F:\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.pdb
