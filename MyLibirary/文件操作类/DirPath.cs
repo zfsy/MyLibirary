@@ -21,6 +21,16 @@ namespace MyLibirary
             return gDataDir;
         }
 
+        public static bool IsValidPath(string inputPath)
+        {
+            char[] invalidChars = System.IO.Path.GetInvalidPathChars();
+            if (invalidChars == null && invalidChars.Length == 0)
+            {
+                return true;
+            }
+
+            return false;
+        }
 
     }
 }

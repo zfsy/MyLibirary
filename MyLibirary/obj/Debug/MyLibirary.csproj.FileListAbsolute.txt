@@ -3,3 +3,8 @@ F:\GitHub\MyLibirary\MyLibirary\bin\Debug\MyLibirary.pdb
 F:\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.csprojResolveAssemblyReference.cache
 F:\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.dll
 F:\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.pdb
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibirary\bin\Debug\MyLibirary.dll
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibirary\bin\Debug\MyLibirary.pdb
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.csprojResolveAssemblyReference.cache
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.dll
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibirary\obj\Debug\MyLibirary.pdb

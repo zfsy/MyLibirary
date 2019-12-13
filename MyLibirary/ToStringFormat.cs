@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MyLibirary
 {
-    public class Class1
+    public class ToStringFormat
     {
     }
 }

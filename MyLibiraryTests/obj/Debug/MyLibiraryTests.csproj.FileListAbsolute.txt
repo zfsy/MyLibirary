@@ -6,3 +6,10 @@ F:\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibirary.pdb
 F:\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.csprojResolveAssemblyReference.cache
 F:\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.dll
 F:\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.pdb
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibiraryTests.dll
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibiraryTests.pdb
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibirary.dll
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibiraryTests\bin\Debug\MyLibirary.pdb
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.csprojResolveAssemblyReference.cache
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.dll
+C:\Users\lucky\Documents\GitHub\MyLibirary\MyLibiraryTests\obj\Debug\MyLibiraryTests.pdb
