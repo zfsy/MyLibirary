@@ -49,6 +49,7 @@
     <Compile Include="字符串操作\阿拉伯数组转中文数字\NumberToChinese.cs" />
     <Compile Include="文件操作类\DirPath.cs" />
     <Compile Include="正则表达式\Regular.cs" />
+    <Compile Include="辅助\MeasureCodeTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UI\" />
