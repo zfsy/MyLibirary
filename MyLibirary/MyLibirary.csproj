@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppUtil.cs" />
     <Compile Include="DeviceOpera.cs" />
     <Compile Include="FileUtil.cs" />
     <Compile Include="ToStringFormat.cs" />
