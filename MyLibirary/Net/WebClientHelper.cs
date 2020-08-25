@@ -433,6 +433,32 @@ namespace MyLibirary
             byte[] crlf = encoding.GetBytes("\r\n");
             ms.Write(crlf, 0, crlf.Length);
         }
+
+        /// <summary>    
+        /// 添加一个pdf文件, 和服务端一致    
+        /// </summary>    
+        /// <param name="name">文件域名称</param>    
+        /// <param name="filename">文件名</param>    
+        /// <param name="fileData">文件二进制数据</param>    
+        /// <param name="dataLength">二进制数据大小</param>    
+        public void AddPdfFlie(string name, string filename, byte[] fileData, int dataLength)
+        {
+            if (dataLength <= 0 || dataLength > fileData.Length)
+            {
+                dataLength = fileData.Length;
+            }
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("--{0}\r\n", this.boundary);
+            sb.AppendFormat("Content-Disposition: form-data; name=\"{0}\";filename=\"{1}\"\r\n", name, filename);
+            sb.AppendFormat("Content-Type: {0}\r\n", this.GetContentType(filename));
+            sb.Append("Content-Transfer-Encoding:binary\r\n");
+            sb.Append("\r\n");
+            byte[] buf = encoding.GetBytes(sb.ToString());
+            ms.Write(buf, 0, buf.Length);
+            ms.Write(fileData, 0, dataLength);
+            byte[] crlf = encoding.GetBytes("\r\n");
+            ms.Write(crlf, 0, crlf.Length);
+        }
         #endregion
 
         #region 添加字符串
@@ -446,6 +472,25 @@ namespace MyLibirary
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("--{0}\r\n", this.boundary);
             sb.AppendFormat("Content-Disposition: form-data; name=\"{0}\"\r\n", name);
+            sb.Append("\r\n");
+            sb.AppendFormat("{0}\r\n", value);
+            byte[] buf = encoding.GetBytes(sb.ToString());
+            ms.Write(buf, 0, buf.Length);
+        }
+        #endregion
+
+        #region 添加文本(为了和服务端一致)
+        /// <summary>    
+        /// 添加字符串    
+        /// </summary>    
+        /// <param name="name">文本域名称</param>    
+        /// <param name="value">文本值</param>    
+        public void AddText(string name, string value)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("--{0}\r\n", this.boundary);
+            sb.AppendFormat("Content-Disposition: form-data; name=\"{0}\"\r\n", name);
+            sb.Append("Content-Type: text/plain; charset=utf-8\r\n");
             sb.Append("\r\n");
             sb.AppendFormat("{0}\r\n", value);
             byte[] buf = encoding.GetBytes(sb.ToString());

@@ -7,6 +7,7 @@ using System.Diagnostics;
 
 namespace CalculateAppTime
 {
+    /*如果要测试的多个代码段的函数参数不同，不适合*/
     public class MeasureCodeTime
     {
         private Action runcode = null;
